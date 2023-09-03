@@ -1,11 +1,11 @@
 name: Checkout repo and setup node
 
-on:
-  workflow_call:
+on: [workflow_call]
 
 jobs:
   checkout-and-setup:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
