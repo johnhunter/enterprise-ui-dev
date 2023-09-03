@@ -1,6 +1,8 @@
-<aside style="margin-block: 1rem; padding: 1rem; border: 1px solid currentColor">
-  This fork contains workshop exercises from the course <a href="https://frontendmasters.com/courses/enterprise-ui-dev">Enterprise UI Development: Testing & Code Quality</a>.
-</aside>
+This fork contains workshop exercises from the course <a href="https://frontendmasters.com/courses/enterprise-ui-dev">Enterprise UI Development: Testing & Code Quality</a>.
+
+[![Unit Tests](https://github.com/johnhunter/enterprise-ui-dev/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/johnhunter/enterprise-ui-dev/actions/workflows/unit-tests.yml)
+
+---
 
 ![](assets/enterprise-user-interface-development.png)
 
