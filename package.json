@@ -9,7 +9,9 @@
     "test:svelte": "vitest --config=vitest.config.svelte.ts",
     "test:all": "vitest",
     "test:accessibility": "vitest accessibility --run",
-    "coverage": "vitest --coverage --run",
+    "coverage": "vitest run --coverage",
+    "test-ui": "vitest --ui",
+    "coverage-ui": "vitest --ui --coverage.enabled=true",
     "test": "vitest",
     "build": "tsc && vite build",
     "preview": "vite preview"
