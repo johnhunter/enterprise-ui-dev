@@ -10,19 +10,19 @@ jobs:
   unit-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/workflows/checkout-and-setup.yml@main
+      - uses: ./.github/workflows/checkout-and-setup.yml@v1.0.0
       - run: npm test
 
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/workflows/checkout-and-setup.yml@main
+      - uses: ./.github/workflows/checkout-and-setup.ymlv1.0.0
       - run: npm run build
 
   coverage:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/workflows/checkout-and-setup.yml@main
+      - uses: ./.github/workflows/checkout-and-setup.ymlv1.0.0
       - run: npm test -- --coverage
 
       - name: Archive coverage report
